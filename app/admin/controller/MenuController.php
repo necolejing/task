@@ -31,6 +31,7 @@ class MenuController extends AdminBaseController
      *     'param'  => ''
      * )
      */
+    
     public function index()
     {
         session('admin_menu_index', 'Menu/index');
